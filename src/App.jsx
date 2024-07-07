@@ -54,6 +54,9 @@ const App = () => {
               <TempAndDetails weather={weather} units={units} />
               <Forecast title="3 hour step forecast" data={weather.hourly} />
               <Forecast title="daily forecast" data={weather.daily} />
+              <br />
+              <hr className="mt-4"/>
+              <p className="flex flex-row justify-center text-center">Design and Developed By <span className="ml-2 text-yellow-400 cursor-pointer"> Hrishikesh Deshmukh</span></p>
             </>
           )
         }
