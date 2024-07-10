@@ -11,14 +11,14 @@ const TempAndDetails = ({weather: {details, icon, temp, temp_min, temp_max, spee
             id: 1,
             Icon: FaThermometerEmpty,
             title: "Real Feel",
-            value: `${feels_like.toFixed()}°`
+            value: `${feels_like.toFixed()}`
         },
 
         {
             id: 2,
             Icon: BiSolidDroplet,
             title: "Humidity",
-           value: `${humidity.toFixed()}°`
+           value: `${humidity.toFixed()}`
         },
 
         {
